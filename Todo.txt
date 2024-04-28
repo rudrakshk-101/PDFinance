@@ -1,0 +1,9 @@
+- Remove refresh button temporarily
+- Add overflow to the window screen
+- Refine side bar selected menu to look better
+
+
+
+-- Features
+
+- Add Refresh, minimize, max button
