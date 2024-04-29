@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "pdfinance_backend": {
+      "main": "src/pdfinance_backend/main.mo",
+      "type": "motoko"
+    },
+    "pdfinance_frontend": {
+      "dependencies": [
+        "pdfinance_backend"
+      ],
+      "source": [
+        "src/pdfinance_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "pdfinance_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
